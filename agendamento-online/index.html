@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Agendamento Online</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Agendamento | Studio Guuki</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="container">
-    <h1>Agende seu Horário</h1>
-    <form>
-      <input type="text" placeholder="Nome completo" required>
-      <input type="email" placeholder="Email" required>
-      <input type="datetime-local" required>
-      <button type="submit">Confirmar Agendamento</button>
+  <main class="container">
+    <h1>Agende seu horário</h1>
+    <form id="form-agendamento">
+      <input type="text" id="nome" placeholder="Nome completo" required />
+      <input type="email" id="email" placeholder="Email" required />
+      <input type="datetime-local" id="data" required />
+      <button type="submit">Agendar</button>
     </form>
-  </div>
+    <div id="confirmacao" class="hidden"></div>
+  </main>
+  <script src="script.js"></script>
 </body>
 </html>

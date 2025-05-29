@@ -1,0 +1,13 @@
+body {
+  background: #fff;
+  font-family: 'Segoe UI', sans-serif;
+}
+.container {
+  max-width: 960px;
+  margin: 3rem auto;
+  padding: 2rem;
+  text-align: center;
+}
+canvas {
+  max-width: 100%;
+}
