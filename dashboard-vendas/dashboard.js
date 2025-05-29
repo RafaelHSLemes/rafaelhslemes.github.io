@@ -1,0 +1,1 @@
+// Inicialização de gráficos (mock)

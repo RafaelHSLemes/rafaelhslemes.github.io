@@ -1,0 +1,1 @@
+// Código inicial de React aqui (mock)
