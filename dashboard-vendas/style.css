@@ -1,13 +1,25 @@
 body {
-  background: #fff;
+  margin: 0;
   font-family: 'Segoe UI', sans-serif;
+  background: #f0f0f0;
+}
+.header {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
 }
 .container {
-  max-width: 960px;
-  margin: 3rem auto;
+  max-width: 1000px;
+  margin: auto;
   padding: 2rem;
-  text-align: center;
+  background: white;
+  border-radius: 10px;
 }
 canvas {
-  max-width: 100%;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+ul {
+  list-style: none;
 }
