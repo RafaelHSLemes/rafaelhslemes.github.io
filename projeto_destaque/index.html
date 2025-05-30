@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sistema Completo de Agendamentos | StudioFlow</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="StudioFlow Logo" class="logo" />
+    <h1>StudioFlow - Gestão de Agendamentos</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Dashboard</a>
+    <a href="#">Calendário</a>
+    <a href="#">Clientes</a>
+  </nav>
+
+  <main>
+    <section class="stats">
+      <h2>Resumo Rápido</h2>
+      <div class="grid">
+        <div class="card"><strong>36</strong><span>Agendamentos</span></div>
+        <div class="card"><strong>R$4.200</strong><span>Faturamento</span></div>
+        <div class="card"><strong>18</strong><span>Clientes únicos</span></div>
+      </div>
+    </section>
+
+    <section class="agenda">
+      <h2>Agendamentos Recentes</h2>
+      <table>
+        <thead><tr><th>Cliente</th><th>Serviço</th><th>Data</th></tr></thead>
+        <tbody id="agenda-list"></tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 StudioFlow - Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

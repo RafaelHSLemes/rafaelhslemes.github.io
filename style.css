@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: #f8faff;
+  color: #2c3e50;
+}
+
+header {
+  background: #1b1f23;
+  color: white;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+section {
+  padding: 3rem 1.5rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+h1, h2 {
+  color: #273c75;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  padding: 1.5rem;
+}
+
+.card a {
+  display: inline-block;
+  margin-top: 0.75rem;
+  margin-right: 1rem;
+  padding: 0.5rem 1rem;
+  background: #1b1f23;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.card a:hover {
+  background: #0f1214;
+}
+
+.sobre-mim {
+  background: #ecf6ff;
+  border-top: 4px solid #3498db;
+}
+
+.sobre-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+@media(min-width: 768px) {
+  .sobre-container {
+    flex-direction: row;
+  }
+}
+
+.foto-perfil {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.texto-sobre {
+  max-width: 600px;
+}
+
+footer {
+  background: #1b1f23;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}

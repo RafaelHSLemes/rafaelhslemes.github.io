@@ -1,53 +1,54 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>RafaelHSLemes | Portifólio</title>
+  <title>RafaelHSLemes | Portfólio</title>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-  <style>
-    body { font-family: 'Montserrat', sans-serif; background: #f4f4f4; margin: 0; padding: 0; color: #333; }
-    header, footer { background: #111; color: white; text-align: center; padding: 2rem 1rem; }
-    section { padding: 2rem 1rem; max-width: 1200px; margin: auto; }
-    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
-    .card { background: white; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); padding: 1rem; }
-    .card a { display: inline-block; margin: 0.5rem 0.5rem 0 0; padding: 0.5rem 1rem; background: #111; color: white; border-radius: 6px; text-decoration: none; font-weight: bold; }
-  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
     <h1>RafaelHSLemes | Desenvolvedor Web & Mobile</h1>
-    <p>Transformo ideias em software. Simples, moderno e escalável.</p>
+    <p>Transformo ideias em soluções digitais sob medida para você ou sua empresa.</p>
   </header>
+
+  <section class="sobre-mim">
+    <div class="sobre-container">
+      <img src="./assets/fotodeperfil.jpg" alt="Foto de Rafael" class="foto-perfil" />
+      <div class="texto-sobre">
+        <h2>Sobre mim</h2>
+        <p>
+          Muito prazer! Sou Rafael, um apaixonado pelo poder do conhecimento e por usá-lo para transformar ideias em soluções digitais. Mais do que códigos,
+          meu foco é criar experiências que funcionam de forma simples, moderna e eficaz para você. Cada projeto é único
+          e pensado com atenção aos detalhes, empatia com o seu negócio e compromisso com a excelência.
+        </p>
+        <p>
+          Meu compromisso é entregar confiança através da tecnologia, com um olhar atento às suas reais necessidades.
+          Seja para criar seu primeiro sistema, renovar sua presença digital ou escalar suas operações, estou pronto para colaborar!
+        </p>
+      </div>
+    </div>
+  </section>
+
   <section>
     <h2>Projetos em Destaque</h2>
     <div class="grid">
       <div class="card">
-        <h3>Agendamento Online</h3>
-        <p>Solução de agendamento para salões, clínicas e consultórios.</p>
-        <a href="../agendamento-online/index.html" target="_blank">Ver projeto</a>
-        <a href="../agendamento-online/README.md" target="_blank">Ver código</a>
-      </div>
-      <div class="card">
-        <h3>Dashboard de Vendas</h3>
-        <p>Visualização de dados com gráficos e relatórios.</p>
-        <a href="../dashboard-vendas/index.html" target="_blank">Ver projeto</a>
-        <a href="../dashboard-vendas/README.md" target="_blank">Ver código</a>
-      </div>
-      <div class="card">
-        <h3>Landing Page para Infoprodutores</h3>
-        <p>Landing page com foco em conversão e contato rápido.</p>
-        <a href="../landing-infoprodutor/index.html" target="_blank">Ver projeto</a>
-        <a href="../landing-infoprodutor/README.md" target="_blank">Ver código</a>
+        <h3>Sistema de Gestão de Agendamentos</h3>
+        <p>Solução de agendamento para estúdios e empresas criativas.</p>
+        <a href="./projeto_destaque/index.html" target="_blank">Ver projeto</a>
+        <a href="./projeto_destaque/README_StudioFlow.md" target="_blank">Ver código</a>
       </div>
     </div>
   </section>
+
   <section>
     <h2>Contato</h2>
     <p><a href="https://wa.me/5519995637347" target="_blank">Fale comigo no WhatsApp</a></p>
     <p><a href="https://github.com/RafaelHSLemes" target="_blank">Meu GitHub</a></p>
   </section>
+
   <footer>
     <p>&copy; 2025 RafaelHSLemes | Todos os direitos reservados</p>
   </footer>
